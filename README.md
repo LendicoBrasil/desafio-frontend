@@ -50,6 +50,7 @@ Nesse desafio iremos utilizar a <a href="https://developer.github.com/v3/" targe
 - Não utilizar framework de CSS, como Bootstrap, Materialize, entre outros do mesmo seguimento.
 - Não utilizar `create-react-app`
 - Disponibilizar o projeto online, utilizando `firebase`, `gh-pages`, `netlify` ou outro de sua preferência.
+- Disponibilizar o projeto em um repositório no github.
 
 ## Conhecimento extra como diferencial
 
