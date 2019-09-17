@@ -8,18 +8,18 @@ Nesse desafio iremos utilizar a <a href="https://developer.github.com/v3/" targe
 
 **Busca de Repositórios** iremos buscar os repositórios públicos de um usuário e mostrar uma listagem desses repositórios, quando clicarmos em um repositório da listagem, devemos ir para a página Detalhes do Repositório.
 
-- Ednpoint para trazer os repositórios públicos por usuário: `https://api.github.com/users/:username/repos`
+- Ednpoint para consumir os repositórios públicos por usuário: `https://api.github.com/users/:username/repos`
 
 **Detalhes do Repositório** iremos mostrar informações mais detalhadas do repositório como Branches e Commits
 
-- Endpoint para trazer as branches do repositório `https://api.github.com/repos/:username/:reponame/branches`
-- Endpoint para trazer os commits do repositório `https://api.github.com/repos/:username/:reponame/commits`
+- Endpoint para consumir as branches do repositório `https://api.github.com/repos/:username/:reponame/branches`
+- Endpoint para consumir os commits do repositório `https://api.github.com/repos/:username/:reponame/commits`
 
 ## Funcionalidades em detalhe
 
 - Página - Busca de Repositórios:
   - Campo de busca:
-    - Com base no nome de usuário inserido no campo de busca, devemos trazer uma lista dos repositórios públicos do usuário.
+    - Com base no nome de usuário inserido no campo de busca, devemos mostrar uma lista dos repositórios públicos do usuário.
   - Listagem dos repositórios:
     - Após buscar os respositórios do usuário, cada item deve conter no mínimo:
       - nome do repositório
