@@ -4,7 +4,7 @@ Olá tudo numa boa? :expressionless:
 
 Nesse desafio iremos utilizar a <a href="https://developer.github.com/v3/" target="_blank">API</a> do Github. Teremos duas páginas a **Busca de Repositórios** e **Detalhes do Repositório**.
 
-## Páginas
+## Estrutura do nosso Produto
 
 **Busca de Repositórios** iremos buscar os repositórios públicos de um usuário e mostrar uma listagem desses repositórios, quando clicarmos em um repositório da listagem, devemos ir para a página Detalhes do Repositório.
 
@@ -51,10 +51,11 @@ Nesse desafio iremos utilizar a <a href="https://developer.github.com/v3/" targe
 - Não utilizar `create-react-app`
 - Disponibilizar o projeto online, utilizando `firebase`, `gh-pages`, `netlify` ou outro de sua preferência.
 
-## Plus
+## Conhecimento extra como diferencial
 
 - Design System
 - Atomic Design
+- Code Spliting
 - Redux Saga
 - LernaJS
 
@@ -64,6 +65,7 @@ Nesse desafio iremos utilizar a <a href="https://developer.github.com/v3/" targe
 - Padrões utilizados
 - Reutilização de código
 - Semântica
+- Configurações do projeto
 - Documentação
 - Testes
 - Build
