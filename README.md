@@ -2,11 +2,11 @@
 
 Olá tudo numa boa? :expressionless:
 
-Nesse desafio iremos utilizar a <a href="https://developer.github.com/v3/" target="_blank">API</a> do Github. Teremos duas páginas a **Home** e **Detalhes do Repositório**.
+Nesse desafio iremos utilizar a <a href="https://developer.github.com/v3/" target="_blank">API</a> do Github. Teremos duas páginas a **Busca de Repositórios** e **Detalhes do Repositório**.
 
 ## Páginas
 
-**Home** iremos poder buscar os repositórios públicos de um usuário e mostrar uma listagem desses repositórios, quando clicarmos em um repositório da listagem devemos ir para a página de Detalhes do Repositório.
+**Busca de Repositórios** iremos buscar os repositórios públicos de um usuário e mostrar uma listagem desses repositórios, quando clicarmos em um repositório da listagem, devemos ir para a página Detalhes do Repositório.
 
 - Ednpoint para trazer os repositórios públicos por usuário: `https://api.github.com/users/:username/repos`
 
@@ -17,11 +17,11 @@ Nesse desafio iremos utilizar a <a href="https://developer.github.com/v3/" targe
 
 ## Funcionalidades em detalhe
 
-- Página - Home:
+- Página - Busca de Repositórios:
   - Campo de busca:
-    - Com base no nome de usuário inserido no campo de busca devemos trazer uma lista dos repositórios públicos do usuário.
+    - Com base no nome de usuário inserido no campo de busca, devemos trazer uma lista dos repositórios públicos do usuário.
   - Listagem dos repositórios:
-    - Após buscar os respositórios do usuário cada item deve conter no mínimo:
+    - Após buscar os respositórios do usuário, cada item deve conter no mínimo:
       - nome do repositório
       - stars
       - data de criação
@@ -35,7 +35,7 @@ Nesse desafio iremos utilizar a <a href="https://developer.github.com/v3/" targe
   - Commits:
     - Listar os commits do repositório
 
-## Requerimentos técnicos
+## Requerimentos técnicos do desafio
 
 - Utilizar `ES6`
 - Utilizar `ReactJS`
@@ -47,15 +47,16 @@ Nesse desafio iremos utilizar a <a href="https://developer.github.com/v3/" targe
 - Aplicação responsiva
 - Escreva documentação pro que faça sentido
 - Escreva teste unitário pro que faça sentido
-- Não utilize framework de CSS como Bootstrap, Materialize, entre outros do mesmo seguimento.
-- Não utilizar `react-create-app`
-- Projeto disponível online usando `firebase`, `gh-pages`, `netlify` ou outro.
+- Não utilizar framework de CSS, como Bootstrap, Materialize, entre outros do mesmo seguimento.
+- Não utilizar `create-react-app`
+- Disponibilizar o projeto online, utilizando `firebase`, `gh-pages`, `netlify` ou outro de sua preferência.
 
 ## Plus
 
 - Design System
 - Atomic Design
 - Redux Saga
+- LernaJS
 
 ## O que será avaliado
 
@@ -70,6 +71,6 @@ Nesse desafio iremos utilizar a <a href="https://developer.github.com/v3/" targe
 
 ### Obs
 
-Mesmo que não consiga concluir o desafío por completo, iremos avaliar o que for entregue.
+Mesmo que não consiga concluir o desafío, iremos avaliar o que for entregue.
 
 Divirta-se! :joy:
