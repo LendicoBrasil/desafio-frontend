@@ -58,6 +58,7 @@ Nesse desafio iremos utilizar a <a href="https://developer.github.com/v3/" targe
 - Code Spliting
 - Redux Saga
 - LernaJS
+- CI/CD
 
 ## O que será avaliado
 
